@@ -325,6 +325,25 @@ nav {
   main
   ==========
 */
+.page {
+  padding-top: 2rem;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: calc(100vh - (6rem + 4rem));
+}
+
+/* 
+  ==========
+  hero
+  ==========
+*/
+.hero {
+  background-image: url(../assets//main.jpeg);
+  height: 40vh;
+  border-radius: var(--borderRadius);
+}
+
 
 
 /* 
@@ -332,7 +351,22 @@ nav {
   Footer
   ==========
 */
+.page-footer {
+  background-color: var(--black);
+  color: var(--white);
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.page-footer p {
+  margin-bottom: 0;
+}
+
+.footer-logo, .page-footer a {
+  color: var(--primary-500);
+}
 
 
 /* 
