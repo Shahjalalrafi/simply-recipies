@@ -461,6 +461,71 @@ nav {
   }
 }
 
+/* 
+  ==========
+  about
+  ==========
+*/
+.featured-title {
+  text-align: center;
+  color: var(--grey-500);
+}
+
+.about-page {
+  display: grid;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.about-page h2 {
+  text-transform: none;
+  font-weight: bold;
+}
+
+.about-page img {
+  height: 300px;
+  border-radius: var(--borderRadius);
+}
+
+.about-page p {
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .about-page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    align-items: center;
+  }
+  .about-page img {
+    height: 100%;
+  }
+}
+
+/* 
+  ==========
+  Footer
+  ==========
+*/
+.contact-container {
+  display: grid;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contact-form {
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .contact-container {
+    grid-template-columns: 1fr 450px;
+    align-items: center;
+  }
+}
+
+
 
 /* 
   ==========
